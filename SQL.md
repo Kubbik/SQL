@@ -101,9 +101,9 @@ SQL - язык позволяющий осуществлять запрсосы 
 
 Для примера:
 
-SELECT (5 * 2 - 6) / 2 AS Result;
+    SELECT (5 * 2 - 6) / 2 AS Result;
 
-Result
-2
+    Result
+    2
 
 
