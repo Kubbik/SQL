@@ -1035,7 +1035,7 @@ ORDER BY {column_name #1} DESC, {column_name #2} DESC
         <td>Запрос JOIN</td>
     </tr>
     <tr>
-        <td>LEFT JOIN</td>
+        <td>LEFT OUTER JOIN</td>
         <td>
         Получение всех данных из левой таблицы, соединённых с соответствующими данными из правой:<br>
         <br>
@@ -1045,7 +1045,7 @@ ORDER BY {column_name #1} DESC, {column_name #2} DESC
         </td>
     </tr>
     <tr>
-        <td>RIGHT JOIN</td>
+        <td>RIGHT OUTER JOIN</td>
         <td>
         Получение всех данных из правой таблицы, соединённых с соответствующими данными из левой:<br>
         <br>
@@ -1096,7 +1096,7 @@ ORDER BY {column_name #1} DESC, {column_name #2} DESC
         </td>
     </tr>
     <tr>
-        <td>FULL OUTER JOIN </td>
+        <td>FULL OUTER JOIN / обратное INNER JOIN</td>
         <td>Получение данных, не относящихся к левой и правой таблицам одновременно (обратное INNER JOIN):<br>
         <br>
         SELECT поля_таблиц<br> 
