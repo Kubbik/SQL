@@ -1170,9 +1170,9 @@ ORDER BY {column_name #1} DESC, {column_name #2} DESC
 Получим список всех бронирований самого дорогого на данный момент жилого помещения:
 
     SELECT * FROM Reservations
-        WHERE Reservations.room_id = (
-            SELECT id FROM Rooms ORDER BY price DESC LIMIT 1
-        )
+    WHERE Reservations.room_id = (
+        SELECT id FROM Rooms ORDER BY price DESC LIMIT 1
+    )
 
 В данном случае запрос на получение самого дорогого жилого помещения выполняется в качестве подзапроса, а затем результат результирующего набора применяется в основном запросе.
 
